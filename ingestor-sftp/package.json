@@ -1,0 +1,17 @@
+{
+  "name": "saas-replay-ingestor-sftp",
+  "version": "1.0.0",
+  "description": "Serviço Node.js para receber clipes via SFTP e carregar no Supabase.",
+  "main": "ingestor.js",
+  "scripts": {
+    "start": "node ingestor.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.44.4",
+    "dotenv": "^16.4.5",
+    "ssh2-sftp-server": "^10.0.4",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "type": "module"
+}
