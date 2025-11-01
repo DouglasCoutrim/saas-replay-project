@@ -9,7 +9,7 @@
   "dependencies": {
     "@supabase/supabase-js": "^2.44.4",
     "dotenv": "^16.4.5",
-    "ssh2-sftp-server": "^10.0.4",
+    "ssh2-sftp-server": "^11.0.0", <--- VERSÃO CORRIGIDA AQUI
     "fs": "0.0.1-security",
     "path": "^0.12.7"
   },
